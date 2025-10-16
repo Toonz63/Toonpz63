@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CSCE 190: Robert Bailey</title>
+    <title>CSCE 190: Phoenix Toon</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Robert Bailey</h1>
-    <div class="about">
-        <h2>About me</h2>
-        <p>Replace this content with your mission statement</p>
-    </div>
-    <div class="skills">
-        <h2>Skills</h2>
-    </div>
-    <div class="projects">
-      <h2>Highlighted projects</h2>
+  <header class="site-header">
+    <h1>Phoenix Toon</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about"    class="section about">
+      <h2>About</h2>
+      <p>I am a Computer Science student who transferred from Mechanical Engineering. I like this better because I get to actually apply as I learn, not just learn a bunch of math I don't know if I will ever need.</p>
+    </section>
+    <section id="skills"   class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java • Data Structures</li>
+        <li>HTML/CSS • Git/GitHub</li>
+      </ul>
+    </section>
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+      <article class="project-card">
+        <h3>Maze Game</h3>
+        <p>Console maze game using a Stack.</p>
+        <a href="https://github.com/<username>/maze-game">Source</a>
+      </article>
+    </section>
       
       <!-- Problem Statement Assignment -->
       <section class="project">
@@ -26,10 +45,11 @@
         </a>
         <p>There are not enough squirrels at the horseshoe</p>
       </section>
-
-    </div>
-    <div class="contact">
-        <h2>Contact me</h2>
-    </div>
+   <section id="contact"  class="section contact">
+      <h2>Contact</h2>
+      <p>Email: pzctoon@gmail.com</p>
+      <p>GitHub: @Toonz63</p>
+    </section>
+  </main>
   </body>
 </html>
